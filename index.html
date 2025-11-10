@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Coping Test</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="language-toggle">
+    <button id="lang-btn" onclick="toggleLanguage()">🇩🇪 Deutsch</button>
+  </div>
+  <div id="app"></div>
+
+   <div id="statsModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeStats()">&times;</span>
+      <h2 id="statsTitle">📊 Statistik</h2>
+      <div id="statsData"></div>
+
+      <h3 id="feedbackTitle">🗣️ Rückmeldungen</h3>
+      <div id="feedbackList"></div>
+
+      <p class="update-note">Aktualisiert am 10. November 2025</p>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
